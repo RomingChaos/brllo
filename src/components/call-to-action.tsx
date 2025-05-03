@@ -1,4 +1,5 @@
 'use client'
+
 import { Button } from '@/components/ui/button'
 import React, { useState } from 'react';
 import { ContactModal } from './contact-modal';
@@ -12,17 +13,25 @@ export default function CallToAction() {
                 style={{ backgroundImage: 'url(/images/cta-background.jpg)' }}
             >
                 <div className="text-center">
-                    <h2 className="text-balance text-3xl font-semibold lg:text-4xl">Ready to Grow Your Flooring Business?</h2>
-                    <p className="mt-4 ">Book a free 20-minute discovery call to see how our fast, SEO-friendly websites can boost your leads and sales.</p>
+                    <h2 className="text-balance text-3xl font-semibold lg:text-4xl text-white">
+                        Ready to Grow Your Flooring Business?
+                    </h2>
+                    <p className="mt-4 text-white">
+                        Book a free 20-minute discovery call to see how our fast, SEO-friendly websites can boost your leads and sales.
+                    </p>
 
                     <div className="mt-12 flex flex-wrap justify-center gap-4">
-                        <Button size="lg" onClick={() => setShowModal(true)}>
-  <span>Book a Call</span>
-</Button>
-<ContactModal open={showModal} onClose={() => setShowModal(false)} />
+                        <Button
+                            size="lg"
+                            onClick={() => setShowModal(true)}
+                            className="bg-white text-black hover:bg-white/75 shadow-md"
+                        >
+                            <span>Book a Call</span>
+                        </Button>
+                        <ContactModal open={showModal} onClose={() => setShowModal(false)} />
                     </div>
                 </div>
             </div>
         </section>
-    )
+    );
 }
