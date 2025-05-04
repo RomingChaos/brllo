@@ -1,6 +1,7 @@
 'use client';
 import { Card, CardHeader } from '@/components/ui/card';
 import Image from 'next/image';
+
 export default function Features() {
     return (
         <section id="process" className="bg-zinc-50 dark:bg-muted/25 py-16 md:py-32">
@@ -28,22 +29,24 @@ export default function Features() {
                             </div>
                         </CardHeader>
 
-                        <div className="pl-6 md:pl-8">
-                            <div className="overflow-hidden rounded-l-lg border-l border-t border-b pl-2 pt-2 pb-2">
+                        {/* Apply horizontal padding and bottom padding for centering and spacing */}
+                        <div className="px-6 md:px-8 pb-6 md:pb-8">
+                            {/* Apply border, rounding, and padding to all sides */}
+                            <div className="overflow-hidden rounded-lg border p-2">
                                 <div className="w-full h-64 overflow-hidden">
                                     <Image
                                         src="/images/process-1.webp"
                                         className="hidden dark:block object-cover w-full h-full"
                                         alt="Planning and structure"
-                                        width={1207}
-                                        height={929}
+                                        width={720}
+                                        height={512}
                                     />
                                     <Image
                                         src="/images/process-1.webp"
                                         className="shadow dark:hidden object-cover w-full h-full"
                                         alt="Planning and structure"
-                                        width={1207}
-                                        height={929}
+                                        width={720}
+                                        height={512}
                                     />
                                 </div>
                             </div>
@@ -61,22 +64,24 @@ export default function Features() {
                             </div>
                         </CardHeader>
 
-                        <div className="pl-6 md:pl-8">
-                            <div className="overflow-hidden rounded-l-lg border-l border-t border-b pl-2 pt-2 pb-2">
+                        {/* Apply horizontal padding and bottom padding for centering and spacing */}
+                        <div className="px-6 md:px-8 pb-6 md:pb-8">
+                            {/* Apply border, rounding, and padding to all sides */}
+                            <div className="overflow-hidden rounded-lg border p-2">
                                 <div className="w-full h-64 overflow-hidden">
                                     <Image
                                         src="/images/process-2.webp"
                                         className="hidden dark:block object-cover w-full h-full"
                                         alt="Step 2: Branding and content integration - Flooring Website Process"
-                                        width={1207}
-                                        height={929}
+                                        width={720}
+                                        height={512}
                                     />
                                     <Image
                                         src="/images/process-2.webp"
                                         className="shadow dark:hidden object-cover w-full h-full"
                                         alt="Step 2: Branding and content integration - Flooring Website Process"
-                                        width={1207}
-                                        height={929}
+                                        width={720}
+                                        height={512}
                                     />
                                 </div>
                             </div>
@@ -94,22 +99,24 @@ export default function Features() {
                             </div>
                         </CardHeader>
 
-                        <div className="pl-6 md:pl-8">
-                            <div className="overflow-hidden rounded-l-lg border-l border-t border-b pl-2 pt-2 pb-2">
+                        {/* Apply horizontal padding and bottom padding for centering and spacing */}
+                        <div className="px-6 md:px-8 pb-6 md:pb-8">
+                             {/* Apply border, rounding, and padding to all sides */}
+                             <div className="overflow-hidden rounded-lg border p-2">
                                 <div className="w-full h-64 overflow-hidden">
                                     <Image
                                         src="/images/process-3.webp"
                                         className="hidden dark:block object-cover w-full h-full"
                                         alt="Review and revisions"
-                                        width={1207}
-                                        height={929}
+                                        width={720}
+                                        height={512}
                                     />
                                     <Image
                                         src="/images/process-3.webp"
                                         className="shadow dark:hidden object-cover w-full h-full"
                                         alt="Review and revisions"
-                                        width={1207}
-                                        height={929}
+                                        width={720}
+                                        height={512}
                                     />
                                 </div>
                             </div>
@@ -127,22 +134,24 @@ export default function Features() {
                             </div>
                         </CardHeader>
 
-                        <div className="pl-6 md:pl-8">
-                            <div className="overflow-hidden rounded-l-lg border-l border-t border-b pl-2 pt-2 pb-2">
+                        {/* Apply horizontal padding and bottom padding for centering and spacing */}
+                        <div className="px-6 md:px-8 pb-6 md:pb-8">
+                             {/* Apply border, rounding, and padding to all sides */}
+                             <div className="overflow-hidden rounded-lg border p-2">
                                 <div className="w-full h-64 overflow-hidden">
                                     <Image
                                         src="/images/process-4.webp"
                                         className="hidden dark:block object-cover w-full h-full"
                                         alt="Final QA & Launch"
-                                        width={1207}
-                                        height={929}
+                                        width={720}
+                                        height={512}
                                     />
                                     <Image
                                         src="/images/process-4.webp"
                                         className="shadow dark:hidden object-cover w-full h-full"
                                         alt="Final QA & Launch"
-                                        width={1207}
-                                        height={929}
+                                        width={720}
+                                        height={512}
                                     />
                                 </div>
                             </div>

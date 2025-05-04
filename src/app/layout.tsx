@@ -68,21 +68,21 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/brllo_logo.svg" type="image/svg+xml" />
+        <link rel="icon" href="/brllo-logo.svg" type="image/svg+xml" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: websiteJsonLd }} />
       </head>
       <body
         className={`font-sans antialiased`}
       >
-      <ThemeProvider
-            attribute="class"
-            defaultTheme="system"
-            enableSystem
-            disableTransitionOnChange
-          >
-        {children}
-        <SpeedInsights />
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          {children}
+          <SpeedInsights />
         </ThemeProvider>
       </body>
     </html>

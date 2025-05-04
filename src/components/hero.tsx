@@ -34,6 +34,7 @@ export default function HeroSection() {
 
   return (
     <>
+    
       <HeroHeader />
       <main className="overflow-hidden">
         <section id="hero">
